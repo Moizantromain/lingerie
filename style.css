@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.haut img:nth-of-type(2) {
+    position: absolute;
+    width: 15%;
+    top: 61px;
+}
+
+.haut img:nth-of-type(1) {
+    border-bottom: 1px solid blue;
+}
+
+ul {
+    overflow: hidden;
+    border-bottom: 1px solid blue;
+}
+
+li {
+    float: left;
+    margin-left: 50px;
+    position: relative;
+    left: -42px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+li:nth-of-type(1) {
+    list-style-type: none;
+}
+
+.type p:nth-of-type(1) {
+    color: grey;
+    padding: 27Px;
+    width: 111px;
+}
+
+.type p:nth-of-type(2) {
+    width: 100px;
+    position: relative;
+    top: -45px;
+    left: 101px;
+}
+
+h2:after,
+h2:before {
+    content: "";
+    display: inline-block;
+    background-image: url(arrow.jpg);
+    width: 86px;
+    height: 3px;
+    font-size: 16px;
+}
+
+.titre h2 {
+    position: relative;
+    width: 100px;
+    margin: 0 auto;
+}
+
+h2:after {
+    position: absolute;
+    top: 12px;
+    left: 142px
+}
+
+h2:before {
+    position: absolute;
+    top: 12px;
+    right: 132px;
+}
+
+.titre p {
+    width: 181px;
+    margin: 0 auto;
+    margin-top: 10Px;
+    color: grey;
+}
+main{
+	width: 1400px;
+	margin: 0 auto;
+}
+
+main ul {
+	border: none;
+	font-size: 0px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 79px;
+}
+main ul li{
+	list-style-type: none;
+	margin-top: 36px;
+}
+
+main ul li p{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	font-size: 27px;
+	color: white;
+	margin-left:42px;
+}
+main ul li:nth-of-type(3){
+	width: 380px;
+	height: 280px;
+	background-color: #FCCF90;
+}
+main ul li:nth-of-type(4){
+	width: 380px;
+	height: 280px;
+	background-color: #11486B;
+}
+main ul li:nth-of-type(9){
+	width: 380px;
+	height: 280px;
+	background-color: #FCCF90;
+}
+main ul li:nth-of-type(12){
+	width: 380px;
+	height: 280px;
+	background-color: #11486B;
+}
+
+main .button{
+	overflow: hidden;
+	margin:0 auto;
+	width: 100%;
+	height: 250px;
+}
+
+main .button a{
+	text-decoration: none;
+	background-color: #11486B;
+	color:white;
+	float: right;
+    margin-right: 74px;
+    padding: 14px 52px;
+    margin-top: 25px;
+    font-size: 21px;
+
+}
+footer{
+	background-color: black;
+	color: white;
+	height: 85px;
+	
+
+}
+footer ul{
+	border:none;
+	text-align: center;
+	text-decoration: none;
+	margin-left:534px; 
+	padding:24px;
+}
+f/*ooter ul li a{
+	text-decoration: none;
+	list-style-type: none;
+
+}*/
+
